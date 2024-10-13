@@ -73,7 +73,7 @@ html {
     width: 25%;
     background: url("images/mario.jpg");
     background-repeat: no-repeat;
-    background-size: 100% 100%
+    background-size: 100% 100%;
 }
 
 .container2 {
@@ -81,3 +81,14 @@ html {
     background-color: green;
 }
 
+.container1_child {
+    display: flex;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.odintext {
+    font-family:'mariofont';
+    color: white;
+    font-size: 70px;
+}
