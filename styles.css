@@ -58,9 +58,11 @@
     font-style: normal;
 
 }
+
 html {
     height: 100%;
 }
+
 .overallcontainer {
     display: flex;
     align-items: stretch;
@@ -69,7 +71,9 @@ html {
 
 .container1 {
     width: 25%;
-    background-color: red;
+    background: url("images/mario.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%
 }
 
 .container2 {
