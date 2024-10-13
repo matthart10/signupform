@@ -49,4 +49,12 @@
 
  /* END OF CSS RESET */
  
- 
+ @font-face {
+    font-family: 'mariofont';
+    src: url('fonts/mariofont/supermario256-webfont.woff2') format('woff2'),
+         url('fonts/mariofont/supermario256-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
