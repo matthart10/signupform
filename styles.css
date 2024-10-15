@@ -81,14 +81,21 @@ html {
     background-color: green;
 }
 
-.container1_child {
+.odin {
     display: flex;
-    margin-top: 120px;
-    margin-left: 100px;
+    max-height: 100px;
+    align-items: center;
+    justify-content: center;
 }
 
 .odintext {
     font-family:'mariofont';
     color: white;
-    font-size: 70px;
+    font-size: 4em;
+    margin-left: 10px;
+}
+
+img {
+    width: 10%;
+    height: 10%;
 }
