@@ -78,7 +78,6 @@ html {
 
 .container2 {
     width: 75%;
-    background-color: green;
 }
 
 .odin {
@@ -99,4 +98,21 @@ html {
 
 img {
     width: 15%;
+}
+
+.infomessage {
+    height: 33%;
+}
+
+.form {
+    height: 33%;
+}
+
+.login {
+    height: 34%;
+}
+
+.boldtext {
+    font-weight: bold;
+    font-size: 1.3em;
 }
