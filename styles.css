@@ -83,19 +83,18 @@ html {
 
 .odin {
     display: flex;
-    max-height: 100px;
     align-items: center;
     justify-content: center;
+    width: 100%;
 }
 
 .odintext {
     font-family:'mariofont';
     color: white;
-    font-size: 4em;
+    font-size: 5em;
     margin-left: 10px;
 }
 
 img {
-    width: 10%;
-    height: 10%;
+    width: 15%;
 }
