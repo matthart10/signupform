@@ -105,6 +105,7 @@ img {
     height: 33%;
     max-width: 1000px;
     margin: auto;
+    position: relative;
 }
 
 .form {
@@ -117,7 +118,17 @@ img {
 
 .infoText {
     font-weight: bold;
-    font-size: 1.4em;
+    font-size: 1.5em;
     padding-left: 3%;
     padding-right: 3%;
+}
+
+.firstSentence {
+    position: absolute;
+    bottom: 80px;
+}
+
+.secondSentence {
+    position: absolute;
+    bottom: 0;
 }
