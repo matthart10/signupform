@@ -100,11 +100,14 @@ html {
 img {
     width: 15%;
 }
-
-.infoMessage {
+.infoMessageContainer {
     height: 33%;
-    max-width: 1000px;
     margin: auto;
+    background-color: rgb(230, 227, 227);
+}
+.infoMessage {
+    max-width: 1000px;
+    height: 100%;
     position: relative;
 }
 
@@ -125,10 +128,10 @@ img {
 
 .firstSentence {
     position: absolute;
-    bottom: 80px;
+    bottom: 100px;
 }
 
 .secondSentence {
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
 }
