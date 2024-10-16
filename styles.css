@@ -101,7 +101,7 @@ img {
     width: 15%;
 }
 
-.infomessage {
+.infoMessage {
     height: 33%;
     max-width: 1000px;
     margin: auto;
@@ -115,7 +115,9 @@ img {
     height: 34%;
 }
 
-.boldtext {
+.infoText {
     font-weight: bold;
     font-size: 1.4em;
+    padding-left: 3%;
+    padding-right: 3%;
 }
