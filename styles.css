@@ -103,6 +103,8 @@ img {
 
 .infomessage {
     height: 33%;
+    max-width: 1000px;
+    margin: auto;
 }
 
 .form {
@@ -115,5 +117,5 @@ img {
 
 .boldtext {
     font-weight: bold;
-    font-size: 1.3em;
+    font-size: 1.4em;
 }
