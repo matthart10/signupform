@@ -162,6 +162,31 @@ input {
     height: 100%;
 }
 
+button {
+    color: white;
+    background-color: rgb(105, 105, 231);
+    border-radius: 5px;
+    margin: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    font-weight: bold;
+    border: none;
+}
+
+.account {
+    margin-left: 3%;
+    margin-right: 3%;
+    letter-spacing: -.5px;
+}
+
+span {
+    color: rgb(105, 105, 231);
+    font-weight: bold;
+    letter-spacing: -.5px;
+}
+
 .infoText {
     font-weight: bold;
     font-size: 1.5em;
