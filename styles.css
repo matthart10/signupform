@@ -113,7 +113,6 @@ img {
 .formContainer {
     height: 33%;
     box-shadow: 0 10px 10px -10px rgb(145, 142, 142);
-    box-shadow:
 }
 
 .form {
@@ -124,6 +123,12 @@ img {
 form {
     padding-left: 3%;
     padding-right: 3%;
+    padding-bottom: 3%;
+}
+
+
+input {
+    width: 200px;
 }
 
 .loginContainer {
