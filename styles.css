@@ -150,7 +150,13 @@ label {
 input {
     width: 300px;
     margin-bottom: 10px;
+    border-color: #E5E7EB;
+    border-radius: 3px;
+    border-width: .5px;
+    border-style: solid;
 }
+
+
 
 .loginContainer {
     height: 34%;
@@ -207,4 +213,9 @@ span {
 .secondContainer {
     padding-top: 3%;
     padding-bottom: 3%;
+}
+
+input:focus {
+    outline: none;
+    border: 1px solid rgb(105, 105, 231);
 }

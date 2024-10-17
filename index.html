@@ -24,14 +24,14 @@
             <div class="formContainer">
                 <div class="form">
                     <div class="infoText secondContainer">Let's do this!</div>
-                    <form action="example.com/path" method="post">
+                    <form id="myForm" action="example.com/path" method="post">
                         <div class="firstFormHalf">
                             <label for="first_name">FIRST NAME</label>
                             <input type="text" id="first_name">
                             <label for="email">EMAIL</label>
                             <input type="email" id="email">
                             <label for="password">PASSWORD</label>
-                            <input type="password" id="password">
+                            <input type="password" id="password" required>
                         </div>
                         <div class="secondFormHalf">
                             <label for="last_name">LAST NAME</label>
@@ -39,14 +39,14 @@
                             <label for="phone_number">PHONE NUMBER</label>
                             <input type="tel" id="phone_number">
                             <label for="confirmation">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirmation">
+                            <input type="password" id="confirmation" required>
                         </div>
                     </form>
                 </div>
             </div>
             <div class="loginContainer">
                 <div class="login">
-                    <button>Create Account</button>
+                    <button form="myForm">Create Account</button>
                     <div class="account">Already have an account? <span>Log in</span></div>
                 </div>
             </div>
