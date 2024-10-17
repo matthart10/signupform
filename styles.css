@@ -217,5 +217,14 @@ span {
 
 input:focus {
     outline: none;
-    border: 1px solid rgb(105, 105, 231);
+    border-color: rgb(166, 166, 235);
+    box-shadow: .25px .25px 2px .25px black;
+}
+
+input:invalid {
+    border-color: red;
+}
+
+input:invalid + span::after {
+    content:"min. characters required: 8";
 }
