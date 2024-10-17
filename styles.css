@@ -112,7 +112,9 @@ img {
 
 .formContainer {
     height: 33%;
-    box-shadow: 0 10px 10px -10px rgb(145, 142, 142);
+    box-shadow: 0 10px 10px -10px rgb(150, 146, 146);
+    position: relative;
+    z-index: 1000;
 }
 
 .form {
@@ -144,6 +146,12 @@ input {
 
 .loginContainer {
     height: 34%;
+    background-color: rgb(248, 245, 245);
+}
+
+.login {
+    max-width: 1000px;
+    height: 100%;
 }
 
 .infoText {
