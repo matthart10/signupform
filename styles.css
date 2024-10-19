@@ -225,6 +225,24 @@ input:invalid {
     border-color: red;
 }
 
-input:invalid + span::after {
-    content:"min. characters required: 8";
+input + span {
+    position: relative;
+}
+
+input:invalid + span.password::after {
+    position: absolute;
+    content:"Min. characters required: 8";
+    color: red;
+    font-size: 0.75em;
+    top: -55px;
+    left: 130px;
+}
+
+input:invalid + span.confirm::after {
+    position: absolute;
+    content:"Password does not match";
+    color: red;
+    font-size: 0.75em;
+    top: -55px;
+    left: 162px;
 }
