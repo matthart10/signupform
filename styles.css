@@ -235,7 +235,7 @@ input:invalid + span.password::after {
     color: red;
     font-size: 0.75em;
     top: -55px;
-    left: 130px;
+    left: 155px;
 }
 
 input:invalid + span.confirm::after {
@@ -245,4 +245,22 @@ input:invalid + span.confirm::after {
     font-size: 0.75em;
     top: -55px;
     left: 162px;
+}
+
+input:invalid + span.emailValidation::after {
+    position: absolute;
+    content:"Email not in correct format";
+    color: red;
+    font-size: 0.75em;
+    top: -55px;
+    left: 155px;
+}
+
+input:invalid + span.phoneValidation::after {
+    position: absolute;
+    content:"Phone # not in correct format";
+    color: red;
+    font-size: 0.75em;
+    top: -55px;
+    left: 145px;
 }
