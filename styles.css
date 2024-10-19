@@ -179,6 +179,7 @@ button {
     padding-right: 40px;
     font-weight: bold;
     border: none;
+    cursor: pointer;
 }
 
 .account {
@@ -187,10 +188,11 @@ button {
     letter-spacing: -.5px;
 }
 
-span {
+span.fakeLogin {
     color: rgb(105, 105, 231);
     font-weight: bold;
     letter-spacing: -.5px;
+    cursor: pointer;
 }
 
 .infoText {
