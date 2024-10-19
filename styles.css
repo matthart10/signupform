@@ -112,7 +112,7 @@ img {
 }
 
 .formContainer {
-    height: 33%;
+    min-height: 33%;
     box-shadow: 0 10px 10px -10px rgb(150, 146, 146);
     position: relative;
     z-index: 1000;
