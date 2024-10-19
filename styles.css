@@ -223,7 +223,7 @@ span.fakeLogin {
 input:focus {
     outline: none;
     border-color: rgb(166, 166, 235);
-    box-shadow: .25px .25px 2px .25px black;
+    box-shadow: .25px .25px 2px 1px black;
 }
 
 input:invalid {
