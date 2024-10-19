@@ -188,10 +188,13 @@ button {
     letter-spacing: -.5px;
 }
 
-span.fakeLogin {
-    color: rgb(105, 105, 231);
+span {
     font-weight: bold;
     letter-spacing: -.5px;
+}
+
+span.fakeLogin {
+    color: rgb(105, 105, 231);
     cursor: pointer;
 }
 
